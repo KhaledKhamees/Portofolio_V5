@@ -25,14 +25,14 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+        DATA SCIENTIST
         </span>
       </span>
       <br />
       <span className="relative inline-block mt-2">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent">
-          Developer
+        & ML ENGINEER
         </span>
       </span>
     </h1>
@@ -77,12 +77,14 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
-const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
+const WORDS = ["Computer Science Student", "Tech Enthusiast"];
+const TECH_STACK = ["Pandas", "NumPy", "Scikit-Learn", " TensorFlow" , "Python" ,"SQL"];
+import { Facebook } from "lucide-react";
+
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/EkiZR" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/" },
-  { icon: Instagram, link: "https://www.instagram.com/ekizr_/?hl=id" }
+  { icon: Github, link: "https://github.com/Tarekk05" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/tarek-m-abu-ali-33380b343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+  { icon: Facebook, link: "https://www.facebook.com/share/161ePsW4BY/" } 
 ];
 
 const Home = () => {
